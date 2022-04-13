@@ -1,0 +1,32 @@
+body {
+  min-height: 2000px;
+  padding-top: 70px;
+}
+
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #f44336;} /* Green */
+.database {width: 70%; background-color: #808080;} /* Blue */
+.programming {width: 75%; background-color: #2196f3;} /* Red */
+.networking {width: 85%; background-color: #04aa6d;} /* Dark Grey */
+.os {width: 80%; background-color: #dd9715;} /* Dark Grey */
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
